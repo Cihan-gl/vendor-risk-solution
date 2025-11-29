@@ -48,7 +48,7 @@ vendor-risk-solution/
 
 Teknolojiler
 Backend
-.NET 9 / ASP.NET Core Web API
+.NET 8 / ASP.NET Core Web API
 PostgreSQL 16
 Redis 7
 CQRS + MediatR
