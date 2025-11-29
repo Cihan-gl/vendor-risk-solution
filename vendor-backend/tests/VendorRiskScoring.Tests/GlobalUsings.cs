@@ -1,0 +1,12 @@
+global using FluentAssertions;
+global using Moq;
+global using VendorRiskScoring.Application.Features.Queries.Vendor;
+global using VendorRiskScoring.Domain.Entities;
+global using VendorRiskScoring.Domain.Interfaces;
+global using VendorRiskScoring.Application.DTOs;
+global using VendorRiskScoring.Application.Features.Commands.Vendor;
+global using VendorRiskScoring.Application.Interfaces;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.Extensions.Options;
+global using VendorRiskScoring.Application.Configurations;
+global using VendorRiskScoring.Application.Services;

@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BF47DFAD-A561-4581-9229-0FB6D819DC1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{862E07C7-995D-41DE-8038-C68107F8A061}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendorRiskScoring.API", "src\VendorRiskScoring.API\VendorRiskScoring.API.csproj", "{6EBE3E53-C0DA-47D9-BA85-F3F14830BEBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendorRiskScoring.Application", "src\VendorRiskScoring.Application\VendorRiskScoring.Application.csproj", "{207E44AF-5657-4FE7-8270-4EF0C95842DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendorRiskScoring.Domain", "src\VendorRiskScoring.Domain\VendorRiskScoring.Domain.csproj", "{71515E46-B549-4024-ABE5-E7106A3CD67A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendorRiskScoring.Infrastructure", "src\VendorRiskScoring.Infrastructure\VendorRiskScoring.Infrastructure.csproj", "{20DFA030-6030-447B-A725-BBD3C80F8ED7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendorRiskScoring.Tests", "tests\VendorRiskScoring.Tests\VendorRiskScoring.Tests.csproj", "{1617B965-E092-4892-AE19-986252E9CA36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6EBE3E53-C0DA-47D9-BA85-F3F14830BEBF} = {BF47DFAD-A561-4581-9229-0FB6D819DC1D}
+		{207E44AF-5657-4FE7-8270-4EF0C95842DC} = {BF47DFAD-A561-4581-9229-0FB6D819DC1D}
+		{71515E46-B549-4024-ABE5-E7106A3CD67A} = {BF47DFAD-A561-4581-9229-0FB6D819DC1D}
+		{20DFA030-6030-447B-A725-BBD3C80F8ED7} = {BF47DFAD-A561-4581-9229-0FB6D819DC1D}
+		{1617B965-E092-4892-AE19-986252E9CA36} = {862E07C7-995D-41DE-8038-C68107F8A061}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EBE3E53-C0DA-47D9-BA85-F3F14830BEBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EBE3E53-C0DA-47D9-BA85-F3F14830BEBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EBE3E53-C0DA-47D9-BA85-F3F14830BEBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EBE3E53-C0DA-47D9-BA85-F3F14830BEBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{207E44AF-5657-4FE7-8270-4EF0C95842DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{207E44AF-5657-4FE7-8270-4EF0C95842DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{207E44AF-5657-4FE7-8270-4EF0C95842DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{207E44AF-5657-4FE7-8270-4EF0C95842DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71515E46-B549-4024-ABE5-E7106A3CD67A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71515E46-B549-4024-ABE5-E7106A3CD67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71515E46-B549-4024-ABE5-E7106A3CD67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71515E46-B549-4024-ABE5-E7106A3CD67A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20DFA030-6030-447B-A725-BBD3C80F8ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20DFA030-6030-447B-A725-BBD3C80F8ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20DFA030-6030-447B-A725-BBD3C80F8ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20DFA030-6030-447B-A725-BBD3C80F8ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1617B965-E092-4892-AE19-986252E9CA36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1617B965-E092-4892-AE19-986252E9CA36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1617B965-E092-4892-AE19-986252E9CA36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1617B965-E092-4892-AE19-986252E9CA36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

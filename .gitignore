@@ -1,0 +1,27 @@
+# .NET
+**/bin/
+**/obj/
+**/out/
+*.user
+*.suo
+*.userprefs
+
+# Rider / IDE
+.idea/
+.vscode/
+*.sln.iml
+
+# Node / React
+**/node_modules/
+**/dist/
+**/.turbo/
+**/.next/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+
+
